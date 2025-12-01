@@ -9,11 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'VLViewer.com - Choose Your Universe',
-  description: 'Explore voice lines, interactions, and conversations from your favorite games. Select a game to start browsing.',
+  title: 'Voiceline Viewer - Deadlock, Overwatch, and Apex',
+  description: 'Explore voice lines and interactions from your favorite games.',
   openGraph: {
-    title: 'VLViewer.com - Choose Your Universe',
-    description: 'Explore voice lines, interactions, and conversations from your favorite games. Select a game to start browsing.',
+    title: 'Voiceline Viewer - Deadlock, Overwatch, and Apex',
+    description: 'Explore voice lines and interactions from your favorite games.',
     url: 'https://vlviewer.com', // Placeholder URL for the base domain
     siteName: 'VLViewer.com',
     locale: 'en_US',
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'VLViewer.com - Choose Your Universe',
-    description: 'Explore voice lines, interactions, and conversations from your favorite games. Select a game to start browsing.',
+    title: 'Voiceline Viewer - Deadlock, Overwatch, and Apex',
+    description: 'Explore voice lines and interactions from your favorite games.'
   },
 };
 

@@ -79,7 +79,7 @@ export default function Home() {
                 href="/" 
                 className="text-2xl font-bold text-blue-400 z-10 pr-2 leading-none"
               >
-                VLViewer.com
+                Voiceline Viewer
               </Link>
             </div>
             <Link href="/blog" className="text-gray-300 hover:text-white font-medium mt-4 sm:mt-0">
