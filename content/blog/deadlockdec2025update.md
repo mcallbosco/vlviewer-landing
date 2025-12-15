@@ -5,4 +5,4 @@ game: "Deadlock"
 description: "There is new festive shopkeeper lines!"
 ---
 
-Visit the shopkeeper page to view his new lines? They will be under self/Seasonal T4. I will be updating it with new tags and proper catigorization tonight. 
+There has been quite a few new shopkeeper voicelines added! If you want to listen through all of them, go to https://deadlock.vlviewer.com/voicelines/ and click play all! 
