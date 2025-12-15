@@ -1,7 +1,7 @@
 ---
 title: "December 2025 Update!"
 date: "2025-12-14"
-game: "Website Update"
+game: "Deadlock"
 description: "There is new festive shopkeeper lines!"
 ---
 
