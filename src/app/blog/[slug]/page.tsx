@@ -23,7 +23,7 @@ export default async function Post({ params }: Props) {
       <header className="bg-gray-800 shadow-md" style={{ backgroundColor: 'var(--bg-header)' }}>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-blue-400 leading-none">
-            VLViewer.com
+            Voiceline Viewer
           </Link>
           <Link href="/blog" className="text-gray-300 hover:text-white font-medium">
             Blog
@@ -43,7 +43,7 @@ export default async function Post({ params }: Props) {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{postData.title}</h1>
             <p className="text-xl text-gray-400">{postData.description}</p>
           </div>
-          
+
           <div className="prose prose-invert prose-blue max-w-none">
             <ReactMarkdown>{postData.content}</ReactMarkdown>
           </div>
@@ -51,8 +51,20 @@ export default async function Post({ params }: Props) {
       </main>
 
       <footer className="bg-gray-800 py-6 mt-12" style={{ backgroundColor: 'var(--bg-footer)' }}>
-        <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} VLViewer.com. This is a fan website.</p>
+        <div className="container mx-auto px-4">
+          <div className="text-center text-gray-400 space-y-3">
+            <p className="text-sm">
+              Created by <a href="https://mcallbos.co" className="text-blue-400 hover:text-blue-300 transition-colors" target="_blank" rel="noopener noreferrer">Mcall</a>
+            </p>
+            <p className="pt-2">
+              <a href="https://ko-fi.com/mcallbosco" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg inline-flex items-center" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z" />
+                </svg>
+                Buy me a coffee
+              </a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>

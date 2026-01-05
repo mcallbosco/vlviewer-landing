@@ -41,22 +41,22 @@ export default function Home() {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
-      
-      <h2 
+
+      <h2
         className={`text-2xl font-bold mb-3 ${game.textColor} group-hover:text-white transition-colors`}
         data-keep-upright
       >
         {game.name}
       </h2>
-      
-      <p 
+
+      <p
         className="text-gray-400 text-center text-sm leading-relaxed group-hover:text-gray-300 transition-colors"
         data-keep-upright
       >
         {game.description}
       </p>
 
-      <div 
+      <div
         className="mt-6 flex items-center text-sm font-medium text-gray-500 group-hover:text-white transition-colors"
         data-keep-upright
       >
@@ -77,16 +77,21 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="flex justify-between items-center w-full sm:w-auto">
-              <Link 
-                href="/" 
+              <Link
+                href="/"
                 className="text-2xl font-bold text-blue-400 z-10 pr-2 leading-none"
               >
                 Voiceline Viewer
               </Link>
             </div>
-            <Link href="/blog" className="text-gray-300 hover:text-white font-medium mt-4 sm:mt-0">
-              Blog
-            </Link>
+            <div className="flex space-x-6 items-center mt-4 sm:mt-0">
+              <Link href="/contributors" className="text-gray-300 hover:text-white font-medium transition-colors">
+                Contributors
+              </Link>
+              <Link href="/blog" className="text-gray-300 hover:text-white font-medium transition-colors">
+                Blog
+              </Link>
+            </div>
           </div>
         </div>
       </header>
@@ -99,7 +104,7 @@ export default function Home() {
               Pick a Game
             </h1>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Explore voice lines and interactions from your favorite games. 
+              Explore voice lines and interactions from your favorite games.
               Select a game below to start browsing.
             </p>
           </div>
@@ -108,8 +113,8 @@ export default function Home() {
             {games.map((game) => {
               if (game.name === "Deadlock") {
                 return (
-                  <Link 
-                    href={game.url} 
+                  <Link
+                    href={game.url}
                     key={game.name}
                     className="group block h-full"
                   >
@@ -123,8 +128,8 @@ export default function Home() {
               }
 
               return (
-                <Link 
-                  href={game.url} 
+                <Link
+                  href={game.url}
                   key={game.name}
                   className={`group relative flex flex-col items-center p-8 rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${game.color} backdrop-blur-sm`}
                 >
@@ -141,12 +146,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center text-gray-400 space-y-3">
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} VLViewer.com. This is a fan website.
+              Created by <a href="https://mcallbos.co" className="text-blue-400 hover:text-blue-300 transition-colors" target="_blank" rel="noopener noreferrer">Mcall</a>
             </p>
             <p className="pt-2">
               <a href="https://ko-fi.com/mcallbosco" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg inline-flex items-center" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z"/>
+                  <path d="M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z" />
                 </svg>
                 Buy me a coffee
               </a>

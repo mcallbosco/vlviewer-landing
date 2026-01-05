@@ -34,3 +34,4 @@ next-env.d.ts
 
 # local blog feed (generated for testing)
 blogs.json
+src/data/contributors.json
