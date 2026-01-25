@@ -9,3 +9,4 @@ Recently, Deadlock added a file with english and chineese transcriptions to the 
 
 A big thanks to all of the contributors to the transcript project over the last 6 months, I appreciate each and every contribution. Hopefully there should be less manual corrections required now. [https://vlviewer.com/contributors](https://vlviewer.com/contributors)
 
+When characters drop, I will aim to have the content on the website uploaded within 30 minutes (Assuming valve does the drop at 5pm est).
