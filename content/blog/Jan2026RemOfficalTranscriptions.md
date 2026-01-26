@@ -8,6 +8,8 @@ description: "You can now browse Rem voicelines!"
 
 Rem is here! A majority of his voicelines were in the captions file some of you might have seen, but 400+ were not, so there is still plenty of content here if you already went over those. 
 
+If you can't see them or the new voicelines, (He should be at the top of the homepage) you might have to clear your browsers cache. You can do this by right clicking the refresh button, or clearing your browser data on Chrome.
+
 
 A big thanks to all of the contributors to the transcript project over the last 6 months, I appreciate each and every contribution. Hopefully there should be less manual corrections required now. [https://vlviewer.com/contributors](https://vlviewer.com/contributors)
 
