@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllPostSlugs, getPostData } from '@/lib/blog';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import CategoryBadge from '@/components/CategoryBadge';
 
 export async function generateStaticParams() {
@@ -45,7 +46,26 @@ export default async function Post({ params }: Props) {
           </div>
 
           <div className="prose prose-invert prose-blue max-w-none">
-            <ReactMarkdown>{postData.content}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                a: ({ href, children, ...props }) => {
+                  const isExternal = typeof href === 'string' && /^https?:\/\//.test(href);
+                  return (
+                    <a
+                      href={href}
+                      target={isExternal ? '_blank' : undefined}
+                      rel={isExternal ? 'noopener noreferrer' : undefined}
+                      {...props}
+                    >
+                      {children}
+                    </a>
+                  );
+                },
+              }}
+            >
+              {postData.content}
+            </ReactMarkdown>
           </div>
         </article>
       </main>
