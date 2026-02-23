@@ -65,6 +65,6 @@ If you have read this far, thank you. I am very hungry for suggestions for featu
 
 The current approach to transcript localizations is experimental and subject to change. My assumption is that most users will autotranslate the web UI, which means the English voiceline text will get autotranslated and be displayed alongside the official transcript translations for lines that have them. This is why I added the flag to each line, and the option to hide the base english transcriptions if desired. If applicable, I'd like to hear what you think about the current setup and how it could be improved. 
 
-VlViewer will always remain ad free, and I have no plans to monitize. 
+VlViewer will always remain ad free, and I have no plans to monetize. 
 
 ~Mcall
