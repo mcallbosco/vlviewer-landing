@@ -1,6 +1,6 @@
 ---
 title: "Update Recap!"
-date: "2026-22-2"
+date: "2026-2-22"
 game: "Deadlock"
 description: "Take a look at some stats from the update period."
 ---
