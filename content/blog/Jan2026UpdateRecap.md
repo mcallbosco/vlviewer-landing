@@ -5,7 +5,7 @@ game: "Deadlock"
 description: "Take a look at some stats from the update period."
 ---
 
-First of all, thank you all. Cloudflare estimates that there were 150k of you!
+First of all, thank you all for visiting the site. Cloudflare estimates that there were 150k of you!
 ![Cloudflare 30-day overview](/blog/2026/Jan/150k.png) 
 
 Anyways, here's the stats.
